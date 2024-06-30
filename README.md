@@ -2,6 +2,11 @@
 
 Some Notepad++ macros that could be useful.
 
+
+To copy the macros, go to the Windows bar and search the folder **%APPDATA%**, open the Notepad++ folder inside and then open the **shortcuts** file. 
+Inside the file and inside the <Macros> tag you can copy the macros you need.
+
+
 ## Macro
 
 - **SQL_IN**: Convert a multi-line list to a SQL IN 
