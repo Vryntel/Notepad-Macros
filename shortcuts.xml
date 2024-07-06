@@ -310,6 +310,62 @@
             <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
             <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
         </Macro>
+        <Macro name="DD/MM/YYYY TO:  MM/DD/YYYY" Ctrl="no" Alt="no" Shift="no" Key="0">
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="(\d{1,2})/(\d{1,2})/(\d{2,4})" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="\2/\1/\3" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+        </Macro>
+        <Macro name="DD/MM/YYYY TO:  YYYY/MM/DD" Ctrl="no" Alt="no" Shift="no" Key="0">
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="(\d{1,2})/(\d{1,2})/(\d{2,4})" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="\3/\2/\1" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+        </Macro>
+        <Macro name="YYYY/MM/DD TO:  DD/MM/YYYY" Ctrl="no" Alt="no" Shift="no" Key="0">
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="(\d{2,4})/(\d{1,2})/(\d{1,2})" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="\3/\2/\1" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+        </Macro>
+        <Macro name="DD/MM/YYYY TO:  DD MONTH YYYY" Ctrl="no" Alt="no" Shift="no" Key="0">
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="/(1|01)/|/(2|02)/|/(3|03)/|/(4|04)/|/(5|05)/|/(6|06)/|/(7|07)/|/(8|08)/|/(9|09)/|/(10)/|/(11)/|/(12)/" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="(?{1} January )(?{2} February )(?{3} March )(?{4} April )(?{5} May )(?{6} June )(?{7} July )(?{8} August )(?{9} September )(?{10} October )(?{11} November )(?{12} December )" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+        </Macro>
+        <Macro name="DD/MM/YYYY TO:  DD MONTH(3 LETTERS) YYYY" Ctrl="no" Alt="no" Shift="no" Key="0">
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="/(1|01)/|/(2|02)/|/(3|03)/|/(4|04)/|/(5|05)/|/(6|06)/|/(7|07)/|/(8|08)/|/(9|09)/|/(10)/|/(11)/|/(12)/" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="(?{1} Jan )(?{2} Feb )(?{3} Mar )(?{4} Apr )(?{5} May )(?{6} Jun )(?{7} Jul )(?{8} Aug )(?{9} Sep )(?{10} Oct )(?{11} Nov )(?{12} Dec )" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+        </Macro>
+        <Macro name="DD MONTH YYYY TO:  DD/MM/YYYY" Ctrl="no" Alt="no" Shift="no" Key="0">
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="( January )|( February )|( March )|( April )|( May )|( June )|( July )|( August )|( September )|( October )|( November )|( December )" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="(?{1}/01/)(?{2}/02/)(?{3}/03/)(?{4}/04/)(?{5}/05/)(?{6}/06/)(?{7}/07/)(?{8}/08/)(?{9}/09/)(?{10}/10/)(?{11}/11/)(?{12}/12/)" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+        </Macro>
+        <Macro name="DD MONTH(3 LETTERS) YYYY TO:  DD/MM/YYYY" Ctrl="no" Alt="no" Shift="no" Key="0">
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="( Jan )|( Feb )|( Mar )|( Apr )|( May )|( Jun )|( Jul )|( Aug )|( Sep )|( Oct )|( Nov )|( Dec )" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="(?{1}/01/)(?{2}/02/)(?{3}/03/)(?{4}/04/)(?{5}/05/)(?{6}/06/)(?{7}/07/)(?{8}/08/)(?{9}/09/)(?{10}/10/)(?{11}/11/)(?{12}/12/)" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+        </Macro>
     </Macros>
     <UserDefinedCommands>
         <Command name="Get PHP help" Ctrl="no" Alt="yes" Shift="no" Key="112">
