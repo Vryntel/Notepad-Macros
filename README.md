@@ -24,3 +24,10 @@ Inside the file and inside the **Macros** tag you can paste the macros you need.
 - **MULTILINE_STRING_JAVA**: Convert a multi-line list to a multi-line String for Java
 - **IBMMAXIMO_LIST**: Convert a multi-line list to a list that can be used to search elements in IBM MAXIMO
 - **WINDOWS_PATH_REMOVE**: Remove the Windows path and leave only the file name
+- **DD/MM/YYYY TO:  MM/DD/YYYY**: Convert a multi-line list of dates with the format DD/MM/YYYY to MM/DD/YYYY
+- **DD/MM/YYYY TO:  YYYY/MM/DD**: Convert a multi-line list of dates with the format DD/MM/YYYY to YYYY/MM/DD
+- **YYYY/MM/DD TO:  DD/MM/YYYY**: Convert a multi-line list of dates with the format YYYY/MM/DD to DD/MM/YYYY
+- **DD/MM/YYYY TO:  DD MONTH YYYY**: Convert a multi-line list of dates with the format DD/MM/YYYY to DD MONTH YYYY (Example: 1/10/2020 --> 1 October 2020)
+- **DD/MM/YYYY TO:  DD MONTH(3 LETTERS) YYYY**: Convert a multi-line list of dates with the format DD/MM/YYYY to DD MONTH YYYY (Example: 1/10/2020 --> 1 Oct 2020)
+- **DD MONTH YYYY TO:  DD/MM/YYYY**: Convert a multi-line list of dates with the format DD MONTH YYYY to DD/MM/YYYY (Example: 1 October 2020 --> 1/10/2020)
+- **DD MONTH(3 LETTERS) YYYY TO:  DD/MM/YYYY**: Convert a multi-line list of dates with the format DD MONTH(3 LETTERS) YYYY to DD/MM/YYYY (Example: 1 Oct 2020 --> 1/10/2020)
